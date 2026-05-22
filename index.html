@@ -1,0 +1,679 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Roger Golber Mamani Panca | Desarrollador de Software e Ingeniero de Sistemas</title>
+  <meta name="description"
+    content="Portafolio profesional de Roger Golber Mamani Panca, Desarrollador de Software y Bachiller en Ingeniería de Sistemas. Especialista en Flutter, Supabase, PHP, WordPress y PostgreSQL.">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+  <!-- ORBES DE FONDO EN CSS FLUIDO (Sin librerías externas) -->
+  <div class="glow-orb orb-1"></div>
+  <div class="glow-orb orb-2"></div>
+  <div class="glow-orb orb-3"></div>
+
+  <!-- HEADER / FLOATING NAVBAR -->
+  <header class="navbar">
+    <div class="nav-container">
+      <nav class="nav-menu">
+        <a href="#home" class="nav-link active">Inicio</a>
+        <a href="#projects" class="nav-link">Proyectos</a>
+        <a href="#tech" class="nav-link">Habilidades</a>
+        <a href="#experience" class="nav-link">Experiencia</a>
+        <a href="#contact" class="nav-link">Contacto</a>
+      </nav>
+      <div class="nav-toggle" id="navToggle">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+  </header>
+
+  <!-- HERO / INICIO -->
+  <section class="hero" id="home">
+    <div class="container hero-content">
+      <div class="hero-left reveal">
+        <h2 class="accent-text" style="font-size: 1.1rem; letter-spacing: 2px;">SOBRE MÍ</h2>
+        <p style="font-size: 1rem; line-height: 1.5; margin-top: 0.5rem;">
+          Desarrollador de Software con experiencia sólida en la creación de aplicaciones móviles con
+          <strong>Flutter</strong> e integración de backends modernos con <strong>Supabase y PostgreSQL</strong>.
+        </p>
+        <p style="font-size: 1rem; line-height: 1.5; margin-top: 0.8rem;">
+          Especializado en desarrollo web utilizando <strong>PHP, WordPress y MySQL</strong>, incluyendo el despliegue
+          en producción y optimizaciones avanzadas de SEO técnico. Orientado a resultados, con experiencia en
+          metodologías ágiles (Scrum) y entrega de soluciones eficientes en entornos de negocio reales.
+        </p>
+      </div>
+
+      <div class="hero-right reveal">
+        <h1>ROGER GOLBER</h1>
+        <h3 class="role accent-text"
+          style="font-size: 1.6rem; margin-bottom: 1.2rem; word-break: keep-all; min-height: 2.4rem;">
+          <span id="typed-text">DESARROLLADOR DE SOFTWARE</span><span class="typed-cursor">|</span>
+        </h3>
+
+        <div class="pill" style="margin-bottom: 0.4rem; display: inline-block;">Bachiller en Ingeniería de Sistemas
+        </div>
+        <br>
+        <div class="pill-outline" style="margin-bottom: 0.8rem; display: inline-block;">Mobile & Web Full-Stack</div>
+
+        <div class="social-icons" style="margin-top: 1rem; flex-wrap: wrap;">
+          <a href="mailto:rogegolbe@gmail.com" title="Enviar Correo"
+            style="width: auto; padding: 0 1.2rem; gap: 0.6rem; font-size: 0.95rem; font-weight: 500;">
+            <i class="fa-solid fa-envelope"></i> rogegolbe@gmail.com
+          </a>
+          <a href="https://wa.me/51924269717" target="_blank" rel="noopener noreferrer" title="WhatsApp"
+            style="width: auto; padding: 0 1.2rem; gap: 0.6rem; font-size: 0.95rem; font-weight: 500;">
+            <i class="fa-brands fa-whatsapp" style="font-size: 1.2rem;"></i> +51 924 269 717
+          </a>
+          <a href="https://linkedin.com/in/rogerg-dev" target="_blank" rel="noopener noreferrer" title="LinkedIn">
+            <i class="fa-brands fa-linkedin-in"></i>
+          </a>
+          <a href="https://github.com/RogerDevp" target="_blank" rel="noopener noreferrer" title="GitHub">
+            <i class="fa-brands fa-github"></i>
+          </a>
+        </div>
+        <p style="margin-top: 0.8rem; font-size: 0.85rem; color: var(--text-dim);">Puno, Perú</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- SECCIÓN 1: PROYECTOS (Moved First!) -->
+  <section class="projects-section container" id="projects" style="scroll-margin-top: 100px;">
+    <div class="reveal" style="text-align: center; margin-bottom: 2.5rem;">
+      <h2 class="section-title" style="margin-top: 0.8rem; margin-bottom: 0.5rem; display: block;">PROYECTOS DESTACADOS
+      </h2>
+      <p style="color: var(--text-dim); max-width: 600px; margin: 0 auto; font-size: 0.9rem;">
+        Una selección de proyectos reales y de investigación que demuestran mi experiencia en desarrollo móvil, web,
+        visión artificial e inteligencia artificial.
+      </p>
+    </div>
+
+    <div class="projects-grid">
+      <!-- Proyecto 1: GastoSmart -->
+      <div class="project-card glass-card reveal" style="border-color: var(--accent-color); padding: 1.5rem;">
+        <!-- Carousel Start -->
+        <div class="project-carousel">
+          <div class="carousel-track">
+            <div class="carousel-slide">
+              <img src="img/proyects/GastoSmart/Screenshot_2026-04-23-16-43-14-693_com.zerogi.control_de_gastos.jpg"
+                class="img-blur-bg" alt="">
+              <img src="img/proyects/GastoSmart/Screenshot_2026-04-23-16-43-14-693_com.zerogi.control_de_gastos.jpg"
+                class="img-main" alt="GastoSmart Screenshot">
+            </div>
+            <div class="carousel-slide">
+              <img src="img/proyects/GastoSmart/Screenshot_2026-04-23-16-43-22-189_com.zerogi.control_de_gastos.jpg"
+                class="img-blur-bg" alt="">
+              <img src="img/proyects/GastoSmart/Screenshot_2026-04-23-16-43-22-189_com.zerogi.control_de_gastos.jpg"
+                class="img-main" alt="GastoSmart Screenshot">
+            </div>
+            <div class="carousel-slide">
+              <img src="img/proyects/GastoSmart/Screenshot_2026-04-23-16-43-30-131_com.zerogi.control_de_gastos.jpg"
+                class="img-blur-bg" alt="">
+              <img src="img/proyects/GastoSmart/Screenshot_2026-04-23-16-43-30-131_com.zerogi.control_de_gastos.jpg"
+                class="img-main" alt="GastoSmart Screenshot">
+            </div>
+            <div class="carousel-slide">
+              <img src="img/proyects/GastoSmart/Screenshot_2026-04-23-16-43-48-726_com.zerogi.control_de_gastos.jpg"
+                class="img-blur-bg" alt="">
+              <img src="img/proyects/GastoSmart/Screenshot_2026-04-23-16-43-48-726_com.zerogi.control_de_gastos.jpg"
+                class="img-main" alt="GastoSmart Screenshot">
+            </div>
+          </div>
+          <button class="carousel-btn prev-btn" aria-label="Anterior"><i class="fa-solid fa-chevron-left"></i></button>
+          <button class="carousel-btn next-btn" aria-label="Siguiente"><i
+              class="fa-solid fa-chevron-right"></i></button>
+          <div class="carousel-dots"></div>
+        </div>
+        <!-- Carousel End -->
+        <div style="margin-bottom: 0.6rem;">
+          <span class="pill"
+            style="width: fit-content; background-color: var(--accent-color); color: #000; margin-right: 0.4rem; font-size: 0.75rem; padding: 0.3rem 0.8rem; margin-bottom: 0;">Móvil</span>
+          <span class="pill-outline"
+            style="font-size: 0.7rem; padding: 0.25rem 0.6rem; border-color: rgba(0,255,255,0.4);">Flutter</span>
+          <span class="pill-outline"
+            style="font-size: 0.7rem; padding: 0.25rem 0.6rem; border-color: rgba(0,255,255,0.4);">Supabase</span>
+        </div>
+        <div>
+          <h3 class="accent-text" style="font-size: 1.2rem; margin-bottom: 0.4rem;">GastoSmart – Expense Tracker</h3>
+          <p style="font-size: 0.85rem; color: var(--text-dim); line-height: 1.4;">
+            Aplicación móvil financiera desarrollada en <strong>Flutter</strong>. Implementa un backend escalable con
+            <strong>Supabase</strong>, destacando una conexión bidireccional entre la base de datos local y online para
+            disponibilidad continua. Integra pasarelas de pagos, sistema de anuncios e inicio de sesión seguro con
+            Google mediante servicios de <strong>Firebase</strong>.
+          </p>
+          <div style="margin-top: 0.8rem; font-size: 1.2rem; color: var(--accent-color); display: flex; gap: 0.6rem;">
+            <i class="fa-solid fa-mobile-screen" title="Flutter"></i>
+            <i class="fa-solid fa-bolt" title="Supabase"></i>
+            <i class="fa-solid fa-database" title="Local/Online DB"></i>
+            <i class="fa-brands fa-google" title="Google Auth"></i>
+            <i class="fa-solid fa-fire" title="Firebase"></i>
+          </div>
+        </div>
+        <a href="https://github.com/rogegolbe" target="_blank" rel="noopener noreferrer" class="btn-link"
+          style="background: var(--accent-color); font-size: 0.8rem; padding: 0.6rem 1.2rem; margin-top: 1rem;">VER EN
+          GOOGLE PLAY</a>
+      </div>
+
+      <!-- Proyecto 2: Sistema Clínico Dental -->
+      <div class="project-card glass-card reveal" style="padding: 1.5rem;">
+        <!-- Carousel Start -->
+        <div class="project-carousel">
+          <div class="carousel-track">
+            <div class="carousel-slide">
+              <img src="img/proyects/DentiDent/Captura%20de%20pantalla%202026-05-22%20111452.png" class="img-blur-bg"
+                alt="">
+              <img src="img/proyects/DentiDent/Captura%20de%20pantalla%202026-05-22%20111452.png" class="img-main"
+                alt="DentiDent Screenshot">
+            </div>
+            <div class="carousel-slide">
+              <img src="img/proyects/DentiDent/Captura%20de%20pantalla%202026-05-22%20111605.png" class="img-blur-bg"
+                alt="">
+              <img src="img/proyects/DentiDent/Captura%20de%20pantalla%202026-05-22%20111605.png" class="img-main"
+                alt="DentiDent Screenshot">
+            </div>
+            <div class="carousel-slide">
+              <img src="img/proyects/DentiDent/Captura%20de%20pantalla%202026-05-22%20111624.png" class="img-blur-bg"
+                alt="">
+              <img src="img/proyects/DentiDent/Captura%20de%20pantalla%202026-05-22%20111624.png" class="img-main"
+                alt="DentiDent Screenshot">
+            </div>
+            <div class="carousel-slide">
+              <img src="img/proyects/DentiDent/Captura%20de%20pantalla%202026-05-22%20111642.png" class="img-blur-bg"
+                alt="">
+              <img src="img/proyects/DentiDent/Captura%20de%20pantalla%202026-05-22%20111642.png" class="img-main"
+                alt="DentiDent Screenshot">
+            </div>
+          </div>
+          <button class="carousel-btn prev-btn" aria-label="Anterior"><i class="fa-solid fa-chevron-left"></i></button>
+          <button class="carousel-btn next-btn" aria-label="Siguiente"><i
+              class="fa-solid fa-chevron-right"></i></button>
+          <div class="carousel-dots"></div>
+        </div>
+        <!-- Carousel End -->
+        <div style="margin-bottom: 0.6rem;">
+          <span class="pill"
+            style="width: fit-content; background-color: var(--text-main); color: #000; margin-right: 0.4rem; font-size: 0.75rem; padding: 0.3rem 0.8rem; margin-bottom: 0;">Web</span>
+          <span class="pill-outline"
+            style="font-size: 0.7rem; padding: 0.25rem 0.6rem; color: var(--text-main); border-color: var(--text-dim);">React</span>
+          <span class="pill-outline"
+            style="font-size: 0.7rem; padding: 0.25rem 0.6rem; color: var(--text-main); border-color: var(--text-dim);">Node.js</span>
+          <span class="pill-outline"
+            style="font-size: 0.7rem; padding: 0.25rem 0.6rem; color: var(--text-main); border-color: var(--text-dim);">PostgreSQL</span>
+        </div>
+        <div>
+          <h3 style="font-size: 1.2rem; margin-bottom: 0.4rem;">DentiDent - Sistema Clínico Dental</h3>
+          <p style="font-size: 0.85rem; color: var(--text-dim); line-height: 1.4;">
+            Plataforma multi-tenant desarrollada con <strong>React</strong> en el frontend y comunicación mediante una
+            API REST en <strong>Node.js + Express</strong>. Implementa autenticación y autorización segura con conexión
+            <strong>JWT</strong>. Utiliza una base de datos <strong>PostgreSQL</strong> con una arquitectura diseñada
+            para garantizar la protección de datos y una estricta separación de información entre diversas clínicas.
+          </p>
+          <div style="margin-top: 0.8rem; font-size: 1.2rem; color: var(--text-main); display: flex; gap: 0.6rem;">
+            <i class="fa-brands fa-react" title="React"></i>
+            <i class="fa-brands fa-node-js" title="Node.js"></i>
+            <i class="fa-solid fa-server" title="Express"></i>
+            <i class="fa-solid fa-shield-halved" title="Seguridad JWT"></i>
+            <i class="fa-solid fa-database" title="PostgreSQL"></i>
+          </div>
+        </div>
+        <a href="https://github.com/rogegolbe" target="_blank" rel="noopener noreferrer" class="btn-link"
+          style="font-size: 0.8rem; padding: 0.6rem 1.2rem; margin-top: 1rem;">VER CÓDIGO EN GITHUB</a>
+      </div>
+
+      <!-- Proyecto 3: Habits -->
+      <div class="project-card glass-card reveal" style="padding: 1.5rem;">
+        <!-- Carousel Start -->
+        <div class="project-carousel">
+          <div class="carousel-track">
+            <div class="carousel-slide">
+              <img src="img/proyects/Habits/Samsung%20Galaxy%20Note%2010+%20Screenshot%201.png" class="img-blur-bg"
+                alt="">
+              <img src="img/proyects/Habits/Samsung%20Galaxy%20Note%2010+%20Screenshot%201.png" class="img-main"
+                alt="Habits Screenshot">
+            </div>
+            <div class="carousel-slide">
+              <img src="img/proyects/Habits/Samsung%20Galaxy%20Note%2010+%20Screenshot%202.png" class="img-blur-bg"
+                alt="">
+              <img src="img/proyects/Habits/Samsung%20Galaxy%20Note%2010+%20Screenshot%202.png" class="img-main"
+                alt="Habits Screenshot">
+            </div>
+            <div class="carousel-slide">
+              <img src="img/proyects/Habits/Samsung%20Galaxy%20Note%2010+%20Screenshot%203.png" class="img-blur-bg"
+                alt="">
+              <img src="img/proyects/Habits/Samsung%20Galaxy%20Note%2010+%20Screenshot%203.png" class="img-main"
+                alt="Habits Screenshot">
+            </div>
+            <div class="carousel-slide">
+              <img src="img/proyects/Habits/Samsung%20Galaxy%20Note%2010+%20Screenshot%204.png" class="img-blur-bg"
+                alt="">
+              <img src="img/proyects/Habits/Samsung%20Galaxy%20Note%2010+%20Screenshot%204.png" class="img-main"
+                alt="Habits Screenshot">
+            </div>
+            <div class="carousel-slide">
+              <img src="img/proyects/Habits/Samsung%20Galaxy%20Note%2010+%20Screenshot%205.png" class="img-blur-bg"
+                alt="">
+              <img src="img/proyects/Habits/Samsung%20Galaxy%20Note%2010+%20Screenshot%205.png" class="img-main"
+                alt="Habits Screenshot">
+            </div>
+          </div>
+          <button class="carousel-btn prev-btn" aria-label="Anterior"><i class="fa-solid fa-chevron-left"></i></button>
+          <button class="carousel-btn next-btn" aria-label="Siguiente"><i
+              class="fa-solid fa-chevron-right"></i></button>
+          <div class="carousel-dots"></div>
+        </div>
+        <!-- Carousel End -->
+        <div style="margin-bottom: 0.6rem;">
+          <span class="pill"
+            style="width: fit-content; background-color: var(--text-main); color: #000; margin-right: 0.4rem; font-size: 0.75rem; padding: 0.3rem 0.8rem; margin-bottom: 0;">Móvil</span>
+          <span class="pill-outline"
+            style="font-size: 0.7rem; padding: 0.25rem 0.6rem; color: var(--text-main); border-color: var(--text-dim);">Flutter</span>
+          <span class="pill-outline"
+            style="font-size: 0.7rem; padding: 0.25rem 0.6rem; color: var(--text-main); border-color: var(--text-dim);">RevenueCat</span>
+        </div>
+        <div>
+          <h3 style="font-size: 1.2rem; margin-bottom: 0.4rem;">Habits - Tracker de Hábitos</h3>
+          <p style="font-size: 0.85rem; color: var(--text-dim); line-height: 1.4;">
+            Aplicación móvil desarrollada nativamente en <strong>Flutter</strong> para el seguimiento de rutinas y
+            formación de hábitos operando de forma ágil con datos locales. Integra pasarela de facturación in-app
+            mediante <strong>RevenueCat</strong> para la gestión de suscripciones premium, además de monetización
+            estructurada con anuncios a través de <strong>AdMob</strong>.
+          </p>
+          <div style="margin-top: 0.8rem; font-size: 1.2rem; color: var(--text-main); display: flex; gap: 0.6rem;">
+            <i class="fa-solid fa-mobile-screen" title="Flutter"></i>
+            <i class="fa-solid fa-database" title="Datos Locales"></i>
+            <i class="fa-solid fa-money-bill-wave" title="RevenueCat"></i>
+            <i class="fa-solid fa-rectangle-ad" title="AdMob"></i>
+          </div>
+        </div>
+        <a href="https://github.com/rogegolbe" target="_blank" rel="noopener noreferrer" class="btn-link"
+          style="font-size: 0.8rem; padding: 0.6rem 1.2rem; margin-top: 1rem;">VER DETALLES</a>
+      </div>
+
+      <!-- Proyecto 4: IA de Videojuegos -->
+      <div class="project-card glass-card reveal" style="padding: 1.5rem;">
+        <!-- Carousel Start -->
+        <div class="project-carousel">
+          <div class="carousel-track">
+            <div class="carousel-slide">
+              <img src="img/proyects/PacmanIA/Captura%20de%20pantalla%202026-05-22%20153202.png" class="img-blur-bg"
+                alt="">
+              <img src="img/proyects/PacmanIA/Captura%20de%20pantalla%202026-05-22%20153202.png" class="img-main"
+                alt="PacmanIA Screenshot">
+            </div>
+            <div class="carousel-slide">
+              <img src="img/proyects/PacmanIA/Captura%20de%20pantalla%202026-05-22%20153239.png" class="img-blur-bg"
+                alt="">
+              <img src="img/proyects/PacmanIA/Captura%20de%20pantalla%202026-05-22%20153239.png" class="img-main"
+                alt="PacmanIA Screenshot">
+            </div>
+            <div class="carousel-slide">
+              <img src="img/proyects/PacmanIA/Captura%20de%20pantalla%202026-05-22%20153253.png" class="img-blur-bg"
+                alt="">
+              <img src="img/proyects/PacmanIA/Captura%20de%20pantalla%202026-05-22%20153253.png" class="img-main"
+                alt="PacmanIA Screenshot">
+            </div>
+          </div>
+          <button class="carousel-btn prev-btn" aria-label="Anterior"><i class="fa-solid fa-chevron-left"></i></button>
+          <button class="carousel-btn next-btn" aria-label="Siguiente"><i
+              class="fa-solid fa-chevron-right"></i></button>
+          <div class="carousel-dots"></div>
+        </div>
+        <!-- Carousel End -->
+        <div style="margin-bottom: 0.6rem;">
+          <span class="pill"
+            style="width: fit-content; background-color: var(--text-main); color: #000; margin-right: 0.4rem; font-size: 0.75rem; padding: 0.3rem 0.8rem; margin-bottom: 0;">Videojuegos</span>
+          <span class="pill-outline"
+            style="font-size: 0.7rem; padding: 0.25rem 0.6rem; color: var(--text-main); border-color: var(--text-dim);">Godot</span>
+          <span class="pill-outline"
+            style="font-size: 0.7rem; padding: 0.25rem 0.6rem; color: var(--text-main); border-color: var(--text-dim);">GDScript</span>
+        </div>
+        <div>
+          <h3 style="font-size: 1.2rem; margin-bottom: 0.4rem;">Pacman - IA Algorítmica</h3>
+          <p style="font-size: 0.85rem; color: var(--text-dim); line-height: 1.4;">
+            Desarrollo del clásico juego en el motor <strong>Godot</strong>, destacando la implementación técnica de
+            Inteligencia Artificial para los enemigos. El sistema de toma de decisiones está construido sobre 3
+            arquitecturas algorítmicas de búsqueda y optimización: el algoritmo <strong>Min-Max</strong> clásico,
+            optimización avanzada con <strong>Poda Alfa-Beta</strong>, y pathfinding <strong>A* (A-star)</strong> para
+            encontrar el camino más corto.
+          </p>
+          <div style="margin-top: 0.8rem; font-size: 1.2rem; color: var(--text-main); display: flex; gap: 0.6rem;">
+            <i class="fa-solid fa-gamepad" title="Godot Engine"></i>
+            <i class="fa-solid fa-code" title="GDScript"></i>
+            <i class="fa-solid fa-brain" title="IA Min-Max & Poda Alfa-Beta"></i>
+            <i class="fa-solid fa-route" title="Algoritmo A*"></i>
+          </div>
+        </div>
+        <a href="https://github.com/rogegolbe" target="_blank" rel="noopener noreferrer" class="btn-link"
+          style="font-size: 0.8rem; padding: 0.6rem 1.2rem; margin-top: 1rem;">VER REPOSITORIO</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- SECCIÓN 2: HABILIDADES (Moved Second!) -->
+  <section class="tech-section container" id="tech" style="scroll-margin-top: 100px;">
+    <div class="reveal" style="text-align: center; margin-bottom: 2.5rem;">
+      <h2 class="section-title" style="margin-top: 0.8rem; margin-bottom: 0.5rem; display: block;">HABILIDADES TÉCNICAS
+      </h2>
+      <p style="color: var(--text-dim); max-width: 600px; margin: 0 auto; font-size: 0.9rem;">
+        Especialidades y herramientas de software optimizadas para lectura limpia y estructurada.
+      </p>
+    </div>
+
+    <div class="tech-cards-grid">
+      <!-- Lenguajes -->
+      <div class="tech-category glass-card reveal" style="padding: 1.5rem;">
+        <i class="fa-solid fa-code tech-cat-icon"></i>
+        <h4 style="font-size: 0.95rem; margin-bottom: 1.2rem; letter-spacing: 1px;">LENGUAJES</h4>
+        <div class="tech-badges">
+          <span class="tech-badge"><i class="fa-solid fa-bolt" style="color: #01C1DD;"></i> Dart</span>
+          <span class="tech-badge"><i class="fa-brands fa-js" style="color: #F7DF1E;"></i> JavaScript</span>
+          <span class="tech-badge"><i class="fa-brands fa-php" style="color: #777BB4;"></i> PHP</span>
+          <span class="tech-badge"><i class="fa-solid fa-database" style="color: #00758F;"></i> SQL</span>
+          <span class="tech-badge"><i class="fa-brands fa-python" style="color: #3776AB;"></i> Python</span>
+          <span class="tech-badge"><i class="fa-solid fa-c" style="color: #00599C;"></i> C++</span>
+          <span class="tech-badge"><i class="fa-solid fa-gamepad" style="color: #478CBF;"></i> GDScript</span>
+        </div>
+      </div>
+
+      <!-- Frameworks y herramientas -->
+      <div class="tech-category glass-card reveal" style="padding: 1.5rem;">
+        <i class="fa-solid fa-cubes tech-cat-icon"></i>
+        <h4 style="font-size: 0.95rem; margin-bottom: 1.2rem; letter-spacing: 1px;">FRAMEWORKS & TOOLS</h4>
+        <div class="tech-badges">
+          <span class="tech-badge"><i class="fa-solid fa-mobile-screen" style="color: #02569B;"></i> Flutter</span>
+          <span class="tech-badge"><i class="fa-brands fa-node-js" style="color: #339933;"></i> Node.js</span>
+          <span class="tech-badge"><i class="fa-brands fa-wordpress" style="color: #21759B;"></i> WordPress</span>
+          <span class="tech-badge"><i class="fa-solid fa-bolt" style="color: #3ECF8E;"></i> Supabase</span>
+          <span class="tech-badge"><i class="fa-solid fa-fire" style="color: #FFCA28;"></i> Firebase</span>
+          <span class="tech-badge"><i class="fa-solid fa-n" style="color: #FFFFFF;"></i> Next.js</span>
+        </div>
+      </div>
+
+      <!-- Bases de datos -->
+      <div class="tech-category glass-card reveal" style="padding: 1.5rem;">
+        <i class="fa-solid fa-database tech-cat-icon"></i>
+        <h4 style="font-size: 0.95rem; margin-bottom: 1.2rem; letter-spacing: 1px;">BASES DE DATOS</h4>
+        <div class="tech-badges">
+          <span class="tech-badge"><i class="fa-solid fa-server" style="color: #336791;"></i> PostgreSQL</span>
+          <span class="tech-badge"><i class="fa-solid fa-database" style="color: #00758F;"></i> MySQL</span>
+          <span class="tech-badge"><i class="fa-solid fa-sitemap" style="color: #A0A0A0;"></i> Modelado</span>
+          <span class="tech-badge"><i class="fa-solid fa-gauge-high" style="color: #3ECF8E;"></i> Query Opt</span>
+        </div>
+      </div>
+
+      <!-- Cloud y despliegue -->
+      <div class="tech-category glass-card reveal" style="padding: 1.5rem;">
+        <i class="fa-solid fa-cloud-arrow-up tech-cat-icon"></i>
+        <h4 style="font-size: 0.95rem; margin-bottom: 1.2rem; letter-spacing: 1px;">CLOUD & DESPLIEGUE</h4>
+        <div class="tech-badges">
+          <span class="tech-badge"><i class="fa-solid fa-cloud" style="color: #3ECF8E;"></i> Supabase Cloud</span>
+          <span class="tech-badge"><i class="fa-solid fa-server" style="color: #A0A0A0;"></i> Web Hosting</span>
+          <span class="tech-badge"><i class="fa-solid fa-magnifying-glass-chart" style="color: #00FFFF;"></i> SEO
+            Técnico</span>
+          <span class="tech-badge"><i class="fa-brands fa-google-play" style="color: #34A853;"></i> Play Store</span>
+        </div>
+      </div>
+
+      <!-- Control y Metodología -->
+      <div class="tech-category glass-card reveal" style="padding: 1.5rem;">
+        <i class="fa-solid fa-diagram-project tech-cat-icon"></i>
+        <h4 style="font-size: 0.95rem; margin-bottom: 1.2rem; letter-spacing: 1px;">CONTROL & METODOLOGÍA</h4>
+        <div class="tech-badges">
+          <span class="tech-badge"><i class="fa-brands fa-git-alt" style="color: #F1502F;"></i> Git</span>
+          <span class="tech-badge"><i class="fa-brands fa-github" style="color: #FFFFFF;"></i> GitHub</span>
+          <span class="tech-badge"><i class="fa-solid fa-users-gear" style="color: #FF7043;"></i> Scrum</span>
+          <span class="tech-badge"><i class="fa-solid fa-repeat" style="color: #00FFFF;"></i> Ágil</span>
+        </div>
+      </div>
+
+      <!-- Idiomas -->
+      <div class="tech-category glass-card reveal" style="padding: 1.5rem;">
+        <i class="fa-solid fa-language tech-cat-icon"></i>
+        <div class="tech-badges">
+          <span class="tech-badge"><i class="fa-solid fa-comments" style="color: #A0A0A0;"></i> Español (Nativo)</span>
+          <span class="tech-badge"><i class="fa-solid fa-globe" style="color: #00FFFF;"></i> Inglés (B2)</span>
+          <span class="tech-badge"><i class="fa-solid fa-brain" style="color: #FF4081;"></i> R. Analítica</span>
+          <span class="tech-badge"><i class="fa-solid fa-graduation-cap" style="color: #FFD54F;"></i>
+            Autoaprendizaje</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SECCIÓN 3: EXPERIENCIA PROFESIONAL -->
+  <section class="experience-section container" id="experience" style="scroll-margin-top: 100px;">
+    <div class="reveal" style="text-align: center; margin-bottom: 2.5rem;">
+      <h2 class="section-title" style="margin-top: 0.8rem; margin-bottom: 0.5rem; display: block;">EXPERIENCIA
+        PROFESIONAL</h2>
+      <p style="color: var(--text-dim); max-width: 600px; margin: 0 auto; font-size: 0.9rem;">
+        Trayectoria en el desarrollo de software y construcción de soluciones digitales.
+      </p>
+    </div>
+
+    <div class="timeline reveal">
+      <!-- Item 1: MezcoFoods -->
+      <div class="timeline-item">
+        <div class="timeline-icon"><i class="fa-solid fa-briefcase"></i></div>
+        <div class="timeline-card glass-card">
+          <span class="pill"
+            style="position: absolute; top: 1.2rem; right: 1.5rem; background: var(--accent-color); color: #000; font-size: 0.75rem; margin-bottom: 0; padding: 0.25rem 0.7rem;">Mayo
+            2025 - Octubre 2025</span>
+          <h3
+            style="font-size: 1.2rem; margin-bottom: 0.2rem; font-weight: 600; color: #FFFFFF; letter-spacing: 0.5px; text-transform: none;">
+            Desarrollador de Aplicación Móvil</h3>
+          <p style="color: var(--accent-color); font-weight: 600; font-size: 0.85rem; margin-bottom: 0.8rem;">MezcoFoods
+            — Puno, Perú</p>
+          <ul
+            style="list-style-type: disc; margin-left: 1.1rem; color: var(--text-dim); font-size: 0.85rem; display: flex; flex-direction: column; gap: 0.4rem;">
+            <li>Construí una aplicación móvil multiplataforma (iOS/Android) con <strong>Flutter</strong> que automatizó
+              la gestión operativa del negocio, reduciendo tiempos de registro manual.</li>
+            <li>Implementé autenticación segura y sincronización en tiempo real integrando <strong>Supabase</strong> con
+              base de datos <strong>PostgreSQL</strong>, logrando disponibilidad continua de datos para los usuarios.
+            </li>
+            <li>Diseñé el consumo de <strong>APIs REST</strong> para comunicación cliente-servidor, garantizando
+              consistencia de datos entre la app y el backend.</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Item 2: Grupo Urbano -->
+      <div class="timeline-item">
+        <div class="timeline-icon"><i class="fa-solid fa-briefcase"></i></div>
+        <div class="timeline-card glass-card">
+          <span class="pill"
+            style="position: absolute; top: 1.2rem; right: 1.5rem; background: var(--accent-color); color: #000; font-size: 0.75rem; margin-bottom: 0; padding: 0.25rem 0.7rem;">Diciembre
+            2024 - Marzo 2025</span>
+          <h3
+            style="font-size: 1.2rem; margin-bottom: 0.2rem; font-weight: 600; color: #FFFFFF; letter-spacing: 0.5px; text-transform: none;">
+            Desarrollador Web</h3>
+          <p style="color: var(--accent-color); font-weight: 600; font-size: 0.85rem; margin-bottom: 0.8rem;">Grupo
+            Urbano Ingeniería y Construcción — Puno, Perú</p>
+          <ul
+            style="list-style-type: disc; margin-left: 1.1rem; color: var(--text-dim); font-size: 0.85rem; display: flex; flex-direction: column; gap: 0.4rem;">
+            <li>Desarrollé sitio web corporativo completo en <strong>PHP con WordPress</strong>, con diseño responsivo
+              adaptado a dispositivos móviles y escritorio.</li>
+            <li>Ejecuté despliegue en la nube y apliqué estrategias de <strong>SEO técnico</strong> (velocidad,
+              metaetiquetas, estructura) mejorando la visibilidad orgánica del sitio.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SECCIÓN 4: EDUCACIÓN -->
+  <section class="education-section container" id="education" style="scroll-margin-top: 100px; margin-top: 4rem;">
+    <div class="reveal" style="text-align: center; margin-bottom: 2.5rem;">
+      <h2 class="section-title" style="margin-top: 0.8rem; margin-bottom: 0.5rem; display: block;">EDUCACIÓN SUPERIOR
+      </h2>
+    </div>
+
+    <div class="reveal" style="max-width: 900px; margin: 0 auto;">
+      <div class="glass-card"
+        style="display: flex; gap: 2rem; padding: 2rem; align-items: center; border-color: var(--card-border); position: relative; overflow: hidden;">
+        <div
+          style="background: rgba(0, 255, 255, 0.05); border: 1px dashed rgba(0, 255, 255, 0.2); width: 80px; height: 80px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 2.2rem; color: var(--accent-color); flex-shrink: 0; box-shadow: 0 0 20px rgba(0, 255, 255, 0.1);">
+          <i class="fa-solid fa-graduation-cap"></i>
+        </div>
+        <div style="flex-grow: 1;">
+          <span class="pill-outline"
+            style="float: right; color: #8A2BE2; border-color: #8A2BE2; font-size: 0.75rem; padding: 0.25rem 0.7rem; margin: 0;">2022
+            - 2026</span>
+          <h3
+            style="font-size: 1.3rem; font-weight: 600; color: #FFFFFF; margin-bottom: 0.3rem; letter-spacing: 0.5px; text-transform: none;">
+            Bachiller en Ingeniería de Sistemas</h3>
+          <p style="color: var(--text-main); font-weight: 600; font-size: 0.95rem; margin-bottom: 0.5rem;">Universidad
+            Nacional del Altiplano (UNA) — Puno, Perú</p>
+          <p style="font-size: 0.85rem; color: var(--text-dim); line-height: 1.5; max-width: 600px;">
+            <strong>Áreas de especialización y cursos clave:</strong> Algoritmos y Estructuras de Datos, Modelado y
+            Administración de Bases de Datos, Ingeniería de Software, Arquitectura de Software.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SECCIÓN 5: CERTIFICACIONES & CURSOS -->
+  <section class="certifications-section container" id="certifications"
+    style="scroll-margin-top: 100px; margin-top: 4rem;">
+    <div class="reveal" style="text-align: center; margin-bottom: 2.5rem;">
+      <h2 class="section-title" style="margin-top: 0.8rem; margin-bottom: 0.5rem; display: block;">CERTIFICACIONES
+        PROFESIONALES</h2>
+      <p style="color: var(--text-dim); max-width: 600px; margin: 0 auto; font-size: 0.9rem;">
+        Validaciones y especializaciones en análisis de datos y desarrollo de aplicaciones móviles.
+      </p>
+    </div>
+
+    <div class="certs-grid reveal">
+      <!-- Certificado 1: Google -->
+      <div class="cert-card glass-card">
+        <a href="https://coursera.org/share/00a777477df3655b79440a7518e84ab9" target="_blank" rel="noopener noreferrer"
+          style="display: block; position: relative;">
+          <div class="cert-img-container">
+            <img src="img/certificates/PrepareDataForExploration.png"
+              alt="Google Data Analytics Professional Certificate" class="cert-img">
+            <div class="cert-overlay">
+              <i class="fa-solid fa-arrow-up-right-from-square"></i>
+            </div>
+          </div>
+        </a>
+        <div class="cert-info">
+          <span class="pill-outline"
+            style="align-self: flex-start; color: #8A2BE2; border-color: #8A2BE2; font-size: 0.75rem; padding: 0.2rem 0.6rem; margin-bottom: 0.8rem;">Google
+            / Coursera</span>
+          <h3
+            style="font-size: 1.1rem; font-weight: 600; color: #FFFFFF; margin-bottom: 0.5rem; text-transform: none; letter-spacing: 0.5px; line-height: 1.3;">
+            Google Data Analytics Professional Certificate</h3>
+          <p style="color: var(--text-dim); font-size: 0.8rem; line-height: 1.4; margin-bottom: 0.8rem;">
+            Acreditación de élite expedida por Google que certifica un dominio avanzado en el ciclo de vida de los
+            datos. Demuestra experticia en la extracción y manipulación de bases de datos complejas con
+            <strong>SQL</strong>, modelado estadístico riguroso en <strong>R</strong>, y el diseño de dashboards de alto
+            impacto visual en <strong>Tableau</strong> para transformar datos masivos en decisiones de negocio
+            estratégicas.
+          </p>
+          <div style="display: flex; justify-content: space-between; align-items: flex-end; margin-top: auto;">
+            <p style="color: var(--accent-color); font-size: 0.75rem; font-style: italic; margin: 0;">Certificación
+              Oficial</p>
+            <a href="https://coursera.org/share/00a777477df3655b79440a7518e84ab9" target="_blank"
+              rel="noopener noreferrer"
+              style="color: var(--text-main); font-size: 0.75rem; text-decoration: underline; text-underline-offset: 3px; font-weight: 600;">
+              VER CREDENCIAL <i class="fa-solid fa-arrow-right" style="margin-left: 3px;"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+
+
+      <!-- Certificado 3: MongoDB -->
+      <div class="cert-card glass-card">
+        <a href="https://learn.mongodb.com/c/oAvldMOkS0GjOF4I83LT2w" target="_blank" rel="noopener noreferrer"
+          style="display: block; position: relative;">
+          <div class="cert-img-container">
+            <img src="img/certificates/mongoDB.png" alt="Introduction to MongoDB Certificate" class="cert-img">
+            <div class="cert-overlay">
+              <i class="fa-solid fa-arrow-up-right-from-square"></i>
+            </div>
+          </div>
+        </a>
+        <div class="cert-info">
+          <span class="pill-outline"
+            style="align-self: flex-start; color: #00ED64; border-color: #00ED64; font-size: 0.75rem; padding: 0.2rem 0.6rem; margin-bottom: 0.8rem;">Base
+            de Datos / MongoDB</span>
+          <h3
+            style="font-size: 1.1rem; font-weight: 600; color: #FFFFFF; margin-bottom: 0.5rem; text-transform: none; letter-spacing: 0.5px; line-height: 1.3;">
+            Introduction to MongoDB</h3>
+          <p style="color: var(--text-dim); font-size: 0.8rem; line-height: 1.4; margin-bottom: 0.8rem;">
+            Acreditación oficial expedida por MongoDB University que valida una comprensión fundamental y estructurada
+            de las bases de datos NoSQL. Certifica el dominio en la gestión de documentos JSON/BSON, ejecución de
+            consultas avanzadas, y diseño de esquemas flexibles para aplicaciones modernas de alto rendimiento y
+            escalabilidad.
+          </p>
+          <div style="display: flex; justify-content: space-between; align-items: flex-end; margin-top: auto;">
+            <p style="color: var(--accent-color); font-size: 0.75rem; font-style: italic; margin: 0;">Certificación
+              Oficial</p>
+            <a href="https://learn.mongodb.com/c/oAvldMOkS0GjOF4I83LT2w" target="_blank" rel="noopener noreferrer"
+              style="color: var(--text-main); font-size: 0.75rem; text-decoration: underline; text-underline-offset: 3px; font-weight: 600;">
+              VER CREDENCIAL <i class="fa-solid fa-arrow-right" style="margin-left: 3px;"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACTO -->
+  <section class="contact-section" id="contact" style="background-image: url('hero_background.png'); padding: 80px 0;">
+    <div class="container contact-content reveal">
+      <h2 class="section-title" style="margin-top: 0.8rem; font-size: 2rem; margin-bottom: 1rem;">¿CONSTRUIMOS UN GRAN
+        PROYECTO JUNTOS?</h2>
+      <p style="color: var(--text-dim); max-width: 600px; margin: 0 auto 2.5rem auto; font-size: 0.95rem;">
+        Estoy disponible para discutir nuevas oportunidades, proyectos de desarrollo de software o implementaciones de
+        extremo a extremo. ¡Hablemos!
+      </p>
+      <div class="contact-info" style="align-items: center; max-width: 500px; margin: 2rem auto 0 auto; gap: 1rem;">
+        <a href="mailto:rogegolbe@gmail.com" class="contact-item" style="font-size: 1.1rem;">
+          <i class="fa-solid fa-envelope" style="width: 25px; text-align: center;"></i> rogegolbe@gmail.com
+        </a>
+        <a href="https://wa.me/51924269717" target="_blank" rel="noopener noreferrer" class="contact-item"
+          style="font-size: 1.1rem;">
+          <i class="fa-brands fa-whatsapp" style="width: 25px; text-align: center;"></i> +51 924 269 717
+        </a>
+        <a href="https://linkedin.com/in/rogerg-dev" target="_blank" rel="noopener noreferrer" class="contact-item"
+          style="font-size: 1.1rem;">
+          <i class="fa-brands fa-linkedin" style="width: 25px; text-align: center;"></i> rogerg-dev
+        </a>
+        <a href="https://github.com/RogerDevp" target="_blank" rel="noopener noreferrer" class="contact-item"
+          style="font-size: 1.1rem;">
+          <i class="fa-brands fa-github" style="width: 25px; text-align: center;"></i> RogerDevp
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- CUSTOM GLOW CURSOR -->
+  <div class="custom-cursor-dot" id="cursorDot"></div>
+  <div class="custom-cursor-ring" id="cursorRing"></div>
+
+  <!-- FULLSCREEN CAROUSEL MODAL -->
+  <div class="lightbox-modal" id="lightboxModal">
+    <button class="lightbox-close" id="lightboxClose" aria-label="Cerrar"><i class="fa-solid fa-xmark"></i></button>
+    <div class="lightbox-content">
+      <div class="lightbox-track" id="lightboxTrack"></div>
+      <button class="carousel-btn prev-btn lightbox-prev" aria-label="Anterior"><i
+          class="fa-solid fa-chevron-left"></i></button>
+      <button class="carousel-btn next-btn lightbox-next" aria-label="Siguiente"><i
+          class="fa-solid fa-chevron-right"></i></button>
+    </div>
+    <div class="carousel-dots lightbox-dots" id="lightboxDots"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
